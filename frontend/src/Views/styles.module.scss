@@ -1,0 +1,27 @@
+.Room {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.LocalVideo {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.Aside {
+    width: 20%;
+}
+
+.Main {
+    width: 80%;
+}
+
+.RemoteVideo {
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, .2);
+}
